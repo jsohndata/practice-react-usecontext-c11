@@ -1,4 +1,4 @@
-// 1. import createContext
+// 1. Import createContext
 import { useState, createContext } from 'react';
 
 import Form from './components/Form';
@@ -6,7 +6,8 @@ import Page from './components/Page';
 import '@picocss/pico'
 import './styles/App.css';
 
-// 2. create and export
+
+// 2. Create and Export
 export const CurrentMessage = createContext(null);
 
 function App() {

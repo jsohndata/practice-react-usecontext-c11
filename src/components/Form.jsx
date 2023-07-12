@@ -10,8 +10,8 @@ export default function Form({ setMessage }) {
     <main className="container">
       <form onSubmit={updateMessage}>
         <label htmlFor="myMessage">My Message</label>
-        <input type="text" id="myMessage" name="myMessage" />
-        <input type="submit" value="submit" />
+        <input type="text" id="myMessage" name="myMessage" placeholder="Enter your message." />
+        <input type="submit" className="outline" value="submit" />
       </form>
     </main>
   );
